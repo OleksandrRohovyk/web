@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>knfufuf</title>
+    <link rel="stylesheet" href="style.css" type="text.css">
+    <style>
+
+    body{
+        background:url(vs_katalog_2019.pdf);}                                                                        /* фон */
+
+        header{
+            margin: 200px;
+            margin:0 auto;
+        }
+        header:before{
+        content:"";
+        display:block;
+        height: 46px;
+        width: 100%;
+        background:rgb(141, 65, 3);
+        position:absolute;
+        left: 0px;
+        z-index: -1;
+    }
+        .menu{
+            margin: 0;
+            padding: 0;
+        }
+        .menu ul,
+        .menu ol{
+            list-style: none;
+        }
+        .menu > ul{
+            display: flex;
+            justify-content: left;
+        }
+        .menu > ul li a{
+            display: block;
+            background: #8d4103;
+            padding: 15px 30px 15px 40px;
+            font-size: 14px;
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: 0.6s;
+        }
+        .menu li a:hover{
+             background: #910101;
+             color: #490101;
+             box-shadow: 1px 10px 10px -5px black;
+             transition: 0.6s;
+        }
+        .menu li ul{
+            position: absolute;
+            min-width: 150px;
+            display: none;
+        }
+        .menu li>ul li a{
+            padding: 10px;
+            text-transform: none;
+            
+        }
+        .menu li:hover > ul{
+            display: block  ;
+
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+               <ul>
+                <li><a href="сайт.html"> Головна </a></li>                    <!-- головна -->
+                   <li><a href="#"> Двері </a>
+                       <ul>
+                        <li><a href="вхідні двері.html"> Вхідні </a></li>
+                        <li><a href="Міжкімнатні.html"> Міжкімнатні </a></li>
+                       </ul>
+                   </li>
+                   <li><a href="#"> Вікна </a>
+                       <ul>
+                           <li><a href="#"> Вхідні </a></li>
+                           <li><a href="#"> Між кімнатні </a></li>
+                       </ul>
+                   </li>  
+                   <li><a href="#"> Жалюзі </a></li>
+                   <li><a href="#"> Сантехніка </a>
+                        <ul>
+                            <li><a href="#"> Вхідні </a></li>
+                             <li><a href="#"> Між кімнатні </a></li>
+                        </ul>
+                   
+                   </li>
+               </ul>
+   
+        </nav>
+    </header>
+    
+
+
+</body>
+</html>
